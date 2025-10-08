@@ -335,8 +335,8 @@ nav ul li a:hover::after {
 
 /* Fade-in Animation Classes */
 .fade-in {
-    opacity: 0;
-    transform: translateY(50px);
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Responsive */
