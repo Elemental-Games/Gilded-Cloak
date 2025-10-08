@@ -15,26 +15,80 @@
         </ul>
     </nav>
 
+    <!-- Hero Section -->
     <div class="hero-container">
         <div id="scene">
             <div data-depth="0.2" class="layer">
                 <img src="gildedcloak-logo.png" alt="The Gilded Cloak Logo" class="hero-logo">
             </div>
-            <div data-depth="0.4" class="layer">
-                <h1 class="hero-title">The Gilded Cloak</h1>
-            </div>
         </div>
         <h2 class="hero-tagline"><span>Uncloaking</span> <span>the</span> <span>truth.</span></h2>
-    </div>
-
-    <div class="content-section">
-        <div class="container">
-            <h2>We Investigate the Questions Others Won't.</h2>
-            <p class="intro-text">From the hidden economies of collectibles to the controversies in professional sports, we follow the money, expose the systems, and uncover the truth behind your biggest curiosities.</p>
+        <div class="scroll-indicator">
+            <div class="arrow-down"></div>
         </div>
     </div>
+
+    <!-- Mission Section -->
+    <section class="mission-section">
+        <div class="container">
+            <h2 class="section-title fade-in">We Investigate the Questions Others Won't.</h2>
+            <p class="mission-text fade-in">From the hidden economies of collectibles to the controversies in professional sports, we follow the money, expose the systems, and uncover the truth behind your biggest curiosities.</p>
+        </div>
+    </section>
+
+    <!-- What We Investigate Section -->
+    <section class="investigate-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Follow the Trail</h2>
+            <div class="investigation-grid">
+                <div class="investigation-card fade-in">
+                    <div class="card-icon">💰</div>
+                    <h3>Follow the Money</h3>
+                    <p>How do resellers get hundreds of limited-edition products when stores limit purchases? We trace the supply chains others ignore.</p>
+                </div>
+                <div class="investigation-card fade-in">
+                    <div class="card-icon">🔍</div>
+                    <h3>Question the System</h3>
+                    <p>Why is a PSA 10 worth 10x more than a PSA 9? We examine the grading systems, biases, and economics behind collectibles.</p>
+                </div>
+                <div class="investigation-card fade-in">
+                    <div class="card-icon">⚖️</div>
+                    <h3>Expose the Truth</h3>
+                    <p>From controversial ref calls to mysteriously convenient outcomes, we investigate the patterns that make you question what's real.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <h2 class="section-title fade-in">The Investigation Team</h2>
+            <div class="team-grid">
+                <div class="team-member fade-in">
+                    <div class="member-role">The Investigator</div>
+                    <h3>Ray</h3>
+                    <p>Your guide through the mystery. Driven by curiosity, armed with questions.</p>
+                </div>
+                <div class="team-member fade-in">
+                    <div class="member-role">The Rogue AI</div>
+                    <h3>Glitch</h3>
+                    <p>Pure data. Cold logic. The tool that finds what humans miss.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="fade-in">Ready to See What's Hidden?</h2>
+            <a href="deep-dives.html" class="cta-button fade-in">Explore Our Investigations</a>
+        </div>
+    </section>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="script.js"></script>
 </body>
