@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:wght@400;700&display=swap');
+
+:root {
+    --primary-green: #1A4314;
+    --primary-gold: #D4AF37;
+    --dark-charcoal: #222222;
+    --light-bg: #1a1a1a;
+}
+
 body {
-    background-color: #222222; /* Dark Charcoal/Off-Black */
-    color: #D4AF37; /* Rich Gold */
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    background-color: var(--light-bg);
+    color: var(--primary-gold);
+    font-family: 'Libre Baskerville', serif;
     margin: 0;
     text-align: center;
-    padding-top: 60px; /* To offset for fixed nav */
+    overflow-x: hidden;
 }
 
 nav {
@@ -16,7 +21,8 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #222222;
+    background-color: rgba(34, 34, 34, 0.8);
+    backdrop-filter: blur(10px);
     border-bottom: 2px solid #D4AF37;
     display: flex;
     justify-content: space-between;
@@ -52,52 +58,88 @@ nav ul li a {
     display: block;
 }
 
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#scene {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scene .layer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo {
+    width: 200px;
+    filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.3));
+}
+
+.hero-title {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    opacity: 0; /* Initially hidden for animation */
+}
+
+.hero-tagline {
+    position: absolute;
+    bottom: 10%;
+    font-size: 2rem;
+    font-family: 'Source Code Pro', monospace;
+    font-style: italic;
+    color: var(--primary-gold);
+}
+
+.hero-tagline span {
+    opacity: 0;
+    display: inline-block; /* Required for GSAP transforms */
+}
+
+.content-section {
+    padding: 100px 0;
+    background-color: var(--dark-charcoal);
+}
+
 .container {
     max-width: 800px;
     padding: 20px;
+    margin: 0 auto;
 }
 
-.logo {
-    width: 150px;
-    margin-bottom: 20px;
+.intro-text {
+    font-size: 1.3em;
+    line-height: 1.6;
+    font-family: 'Source Code Pro', monospace;
 }
 
-h1 {
-    font-size: 3em;
-    margin: 0;
-    color: #1A4314; /* Deep Forest Green - for a different element */
-    text-shadow: 1px 1px 2px #D4AF37;
+/* Cleanup old styles */
+body {
+    padding-top: 0; /* Remove old nav offset */
 }
-
-h2 {
-    font-size: 1.5em;
-    margin-top: 10px;
-    font-style: italic;
-    color: #D4AF37;
-}
-
-p {
-    font-size: 1.2em;
-}
-
-a {
-    color: #D4AF37;
-}
-
-.page-container h1 {
-    margin-bottom: 40px;
-}
-
-.dossier {
-    background-color: rgba(26, 67, 20, 0.1);
-    border: 1px solid #1A4314;
+.container { /* Remove old landing page specific styles */
+    max-width: 800px;
     padding: 20px;
-    margin-bottom: 30px;
-    text-align: left;
 }
-
-.dossier h2 {
-    font-size: 1.8em;
-    font-style: normal;
-    margin-top: 0;
+h1, h2, p {
+    /* Resetting some old styles to be more specific now */
+    margin: 1em 0;
+}
+.page-container h1, .dossier { 
+    /* These styles are for other pages, so we'll leave them for now */
 }
