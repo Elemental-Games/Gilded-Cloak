@@ -1,0 +1,97 @@
+# PROJECT: THE GILDED CLOAK [YouTube Channel Blueprint]
+
+## 1. Top-Level Summary
+
+- **Channel Name:** The Gilded Cloak
+- **Handle:** `@GildedCloak` (YouTube, TikTok, Twitter/X, etc.)
+- **Tagline:** Uncloaking the truth.
+- **Core Concept:** An investigative deep-dive channel that uncovers the answers to compelling problems and reveals the hidden stories behind passionate hobbies (TCGs, video games, collectibles, etc.). We operate as investigators, with the host as the storyteller and an AI counterpart providing the data.
+
+---
+
+## 2. Brand Identity
+
+### Color Palette
+- **Primary:** Deep Forest Green (#1A4314)
+- **Secondary:** Rich Gold (#D4AF37)
+- **Accent:** Dark Charcoal/Off-Black (#222222)
+
+### The Cast
+- **The Host (Ray):** The Investigator. The human guide and storyteller. His role is to present the mystery, connect with the audience, and weave the narrative. He is driven by curiosity. Wears a hat.
+- **The Counterpart (Glitch):** The Rogue Data-AI. Not a cute character, but a "critter/virus" style entity. It is a tool for data analysis, representing pure, cold logic.
+    - **Visuals:** A holographic, glitchy projection. Can be represented by data streams, shifting wireframes, or complex charts.
+    - **Voice:** Synthesized, calm, factual. Delivers data without emotion.
+
+---
+
+## 3. Content Strategy
+
+### Posting Cadence
+- **Goal:** **Weekly.** Every Friday release.
+- **Principle:** Quality and consistency are paramount. Never sacrifice the quality of the investigation for the sake of the schedule.
+
+### Launch Slate (First 3 Videos)
+
+#### Video 1: The Graded Card Bubble
+- **Title:** `I Sent a PERFECT Pokémon Card to PSA (And Got Scammed)`
+- **Core Question:** Why is a "Gem Mint 10" card worth exponentially more than a "Mint 9" that looks identical, and is this system flawed?
+- **Glitch's Role:**
+    - Visualize the exponential growth of the graded card population.
+    - Show a side-by-side price divergence graph (PSA 9 vs. PSA 10).
+    - Present data/analysis on the subjectivity of grading (e.g., resubmission success rates).
+
+#### Video 2: The Video Game Scarcity
+- **Title:** `The PlayStation 5 Scarcity: A Manufactured Crisis?`
+- **Core Question:** Was the multi-year PS5 shortage just a supply chain issue, or did retailers and the company benefit from the hype of scarcity?
+- **Glitch's Role:**
+    - Visualize global shipping manifests and chip production data.
+    - Scrape and display historical sales data from resale sites to calculate scalper profits.
+    - Cross-reference official production numbers with public data to spot inconsistencies.
+
+#### Video 3: The Crowdfunding Graveyard
+- **Title:** `Kickstarter's Graveyard: Where Do Millions in Crowdfunded Dollars Go?`
+- **Core Question:** Why do so many successful Kickstarter projects fail to deliver, and where does the backer money actually go?
+- **Glitch's Role:**
+    - Create a visual timeline of a failed campaign, showing funding vs. delays.
+    - Analyze the project's public budget breakdown vs. standard manufacturing costs.
+    - Pull social media sentiment data to show the shift from excitement to frustration.
+
+---
+
+## 4. Production Workflow: The "Interactive Dossier" Method
+
+### Step 1: Research & Scripting (Cursor)
+- Write the full script in a markdown file (`.md`) within Cursor.
+- Use the aesthetic of the code editor as a visual element in the video.
+- Structure the script with clear markers for `[RAY_DIALOGUE]`, `[GLITCH_DATA]`, and `[VISUAL_CUE]`.
+
+### Step 2: Build the "Investigation Canvas" (Web Page)
+- For each video, create a simple, long-scrolling webpage (using Carrd, Webflow, etc.).
+- This page is the main visual asset. It will contain:
+    - Key text points and headings.
+    - High-quality images.
+    - Pre-rendered data graphs and charts (the assets Glitch "provides").
+    - Embedded quotes or short clips.
+
+### Step 3: Performance & Recording (OBS Studio)
+- Use OBS Studio (free) to record your screen and your voiceover simultaneously.
+- The "performance" is you narrating the script while scrolling through and interacting with the webpage dossier. Use your mouse as a visual guide for the viewer.
+
+### Step 4: Final Polish (DaVinci Resolve)
+- Import the primary screen recording and audio track into DaVinci Resolve (free).
+- The editing process is simplified to:
+    - Cutting mistakes and tightening pace.
+    - Adding zooms and pans to highlight details on the webpage.
+    - Layering in background music, the animated intro/outro, and the logo.
+
+---
+
+## 5. Growth & Monetization Strategy
+
+### The North Star Goal
+- **1 Million Subscribers in 1 Year.** This requires every video to be an "outlier event" engineered for high CTR and high audience retention.
+
+### Realistic Monetization Timeline
+- **Months 1-3 (The Foundation):** Focus on producing 8-12 phenomenal videos and building a core community. The goal is to meet the YPP requirements (1,000 Subs / 4,000 Watch Hours). **Expected Income: $0.**
+- **Months 4-6 (The Growth Phase):** If the content strategy works, the channel should be monetized in this period. The goal is to achieve the first $100 payout.
+- **Months 7-12 (The Scaling Phase):** With a consistent weekly schedule and a library of high-performing videos, this is when the push towards a four-figure monthly income ($2,000+) becomes the target.
