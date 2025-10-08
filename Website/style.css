@@ -175,7 +175,7 @@ nav ul li a:hover::after {
 
 .section-title {
     font-size: 3rem;
-    color: var(--primary-gold);
+    color: var(--primary-gold) !important;
     margin-bottom: 40px;
     text-shadow: 0 0 20px var(--green-glow);
 }
@@ -186,7 +186,7 @@ nav ul li a:hover::after {
     font-family: 'Source Code Pro', monospace;
     max-width: 900px;
     margin: 0 auto;
-    color: var(--primary-gold);
+    color: #FFD700 !important;
 }
 
 /* Investigate Section */
@@ -194,6 +194,10 @@ nav ul li a:hover::after {
     padding: 120px 20px;
     background: var(--primary-green);
     text-align: center;
+}
+
+.investigate-section .section-title {
+    color: #FFD700 !important;
 }
 
 .investigation-grid {
@@ -226,14 +230,15 @@ nav ul li a:hover::after {
 
 .investigation-card h3 {
     font-size: 1.8em;
-    color: var(--primary-gold);
+    color: #FFD700 !important;
     margin-bottom: 15px;
 }
 
 .investigation-card p {
     font-family: 'Source Code Pro', monospace;
-    color: #ccc;
+    color: #f0f0f0 !important;
     line-height: 1.6;
+    font-size: 1.1em;
 }
 
 /* Team Section */
@@ -266,22 +271,23 @@ nav ul li a:hover::after {
 .member-role {
     font-family: 'Source Code Pro', monospace;
     font-size: 0.9em;
-    color: var(--primary-green);
+    color: #90EE90 !important;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .team-member h3 {
     font-size: 2.5em;
-    color: var(--primary-gold);
+    color: #FFD700 !important;
     margin-bottom: 20px;
     text-shadow: 0 0 20px var(--green-glow);
 }
 
 .team-member p {
     font-family: 'Source Code Pro', monospace;
-    color: #ddd;
+    color: #f0f0f0 !important;
     line-height: 1.8;
     font-size: 1.1em;
 }
@@ -295,7 +301,7 @@ nav ul li a:hover::after {
 
 .cta-section h2 {
     font-size: 3em;
-    color: var(--primary-gold);
+    color: #FFD700 !important;
     margin-bottom: 40px;
 }
 
